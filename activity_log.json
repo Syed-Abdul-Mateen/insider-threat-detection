@@ -1,0 +1,86 @@
+[
+    {
+        "event": "created",
+        "path": "D:\\Projects\\Behavior-Based Insider Threat Detection System\\sample_watch_dir\\notes.txt",
+        "timestamp": "Thu Jul 17 00:31:50 2025",
+        "reason": "New file was created",
+        "severity": "low"
+    },
+    {
+        "event": "deleted",
+        "path": "D:\\Projects\\Behavior-Based Insider Threat Detection System\\sample_watch_dir\\notes.txt",
+        "timestamp": "Thu Jul 17 00:31:50 2025",
+        "reason": "Critical file was deleted",
+        "severity": "medium"
+    },
+    {
+        "event": "created",
+        "path": "D:\\Projects\\Behavior-Based Insider Threat Detection System\\sample_watch_dir\\notes.txt",
+        "timestamp": "Thu Jul 17 00:31:51 2025",
+        "reason": "New file was created",
+        "severity": "low"
+    },
+    {
+        "event": "modified",
+        "path": "D:\\Projects\\Behavior-Based Insider Threat Detection System\\sample_watch_dir\\notes.txt",
+        "timestamp": "Thu Jul 17 00:31:51 2025",
+        "reason": "File was modified",
+        "severity": "low"
+    },
+    {
+        "event": "modified",
+        "path": "D:\\Projects\\Behavior-Based Insider Threat Detection System\\sample_watch_dir\\notes.txt",
+        "timestamp": "Thu Jul 17 00:32:56 2025",
+        "reason": "File was modified",
+        "severity": "low"
+    },
+    {
+        "event": "modified",
+        "path": "D:\\Projects\\Behavior-Based Insider Threat Detection System\\sample_watch_dir\\notes.txt",
+        "timestamp": "Thu Jul 17 00:33:01 2025",
+        "reason": "File was modified",
+        "severity": "low"
+    },
+    {
+        "event": "renamed",
+        "path": "D:\\Projects\\Behavior-Based Insider Threat Detection System\\sample_watch_dir\\notes.txt -> D:\\Projects\\Behavior-Based Insider Threat Detection System\\sample_watch_dir\\changed.txt",
+        "timestamp": "Thu Jul 17 00:33:12 2025",
+        "reason": "File was renamed",
+        "severity": "low"
+    },
+    {
+        "event": "deleted",
+        "path": "D:\\Projects\\Behavior-Based Insider Threat Detection System\\sample_watch_dir\\changed.txt",
+        "timestamp": "Thu Jul 17 00:33:19 2025",
+        "reason": "Critical file was deleted",
+        "severity": "medium"
+    },
+    {
+        "event": "created",
+        "path": "D:\\Projects\\Behavior-Based Insider Threat Detection System\\sample_watch_dir\\notes.txt",
+        "timestamp": "Thu Jul 17 00:36:23 2025",
+        "reason": "New file was created",
+        "severity": "low"
+    },
+    {
+        "event": "deleted",
+        "path": "D:\\Projects\\Behavior-Based Insider Threat Detection System\\sample_watch_dir\\notes.txt",
+        "timestamp": "Thu Jul 17 00:36:23 2025",
+        "reason": "Critical file was deleted",
+        "severity": "medium"
+    },
+    {
+        "event": "created",
+        "path": "D:\\Projects\\Behavior-Based Insider Threat Detection System\\sample_watch_dir\\notes.txt",
+        "timestamp": "Thu Jul 17 00:36:23 2025",
+        "reason": "New file was created",
+        "severity": "low"
+    },
+    {
+        "event": "modified",
+        "path": "D:\\Projects\\Behavior-Based Insider Threat Detection System\\sample_watch_dir\\notes.txt",
+        "timestamp": "Thu Jul 17 00:36:23 2025",
+        "reason": "File was modified",
+        "severity": "low"
+    }
+]
