@@ -60,7 +60,7 @@ If downloaded as a ZIP, extract it.
 Then open Command Prompt and go to the project folder:
 
 ```bash
-cd "D:\Projects\Behavior-Based Insider Threat Detection System"
+cd "[your project folder location]"
 ```
 
 ---
