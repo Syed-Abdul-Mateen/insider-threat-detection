@@ -3,7 +3,7 @@
 This project monitors a local folder and detects suspicious file behaviors that might indicate insider threats. It observes activities such as:
 
 - Unauthorized file creations, deletions, or modifications
-- Script file handling (e.g., .bat, .sh, .py)
+- Script file handling (e.g., `.bat`, `.sh`, `.py`)
 - Renaming or moving sensitive files
 
 When such actions are detected, it prints alerts to the console and saves them in a log file.
@@ -12,10 +12,12 @@ When such actions are detected, it prints alerts to the console and saves them i
 
 ## Project Structure
 
+```
 Behavior-Based Insider Threat Detection System/
 │
 ├── main.py
 ├── requirements.txt
+├── activity_log.json
 │
 ├── analyzer/
 │   └── behavior_analyzer.py
@@ -26,8 +28,11 @@ Behavior-Based Insider Threat Detection System/
 ├── logger/
 │   └── activity_logger.py
 │
-└── sample_watch_dir/
+├── sample_watch_dir/
+│   └── (test files to trigger detection)
+│
 └── README.md
+```
 
 ---
 
@@ -45,60 +50,74 @@ Behavior-Based Insider Threat Detection System/
 Download Python 3.11+ from:  
 https://www.python.org/downloads/
 
-Make sure to check "Add Python to PATH" during installation.
+Make sure to check **"Add Python to PATH"** during installation.
 
 ---
 
 ### 2. Clone or Download the Project
 
-If downloaded as ZIP, extract it.  
+If downloaded as a ZIP, extract it.  
 Then open Command Prompt and go to the project folder:
 
+```bash
 cd "D:\Projects\Behavior-Based Insider Threat Detection System"
+```
 
 ---
 
 ### 3. (Optional) Create Virtual Environment
 
-python -m venv insider-env  
+```bash
+python -m venv insider-env
 insider-env\Scripts\activate
+```
 
 ---
 
 ### 4. Install Required Packages
 
+```bash
 pip install -r requirements.txt
+```
 
 ---
 
 ### 5. Create Log File (if not exists)
 
-Make sure the following file exists in the root:
+Make sure `activity_log.json` exists in the root folder.
 
+If it does not exist, create a new file and paste the following:
+
+```json
 []
+```
 
-Save this as activity_log.json if not already present.
+Save the file as `activity_log.json`.
 
 ---
 
 ### 6. Run the Program
 
+```bash
 python main.py
+```
 
 Expected output:
 
-=== Behavior-Based Insider Threat Detection System ===  
-[+] Watching directory: D:\Projects\Behavior-Based Insider Threat Detection System\sample_watch_dir  
+```
+=== Behavior-Based Insider Threat Detection System ===
+[+] Watching directory: D:\Projects\Behavior-Based Insider Threat Detection System\sample_watch_dir
 [+] Monitoring directory: ...
+```
 
 ---
 
 ### 7. Test It
 
-Inside sample_watch_dir, try:
+Inside `sample_watch_dir`, try:
 
-- Creating a file (e.g., notes.txt)
-- Deleting a .bat or .py file
+- Creating a file (e.g., `notes.txt`)
+- Deleting a `.bat` or `.py` file
 - Modifying any file's content
 - Renaming files
 
@@ -110,9 +129,11 @@ These actions will generate alerts.
 
 Suspicious activity is saved to:
 
+```
 activity_log.json
+```
 
-Open it in any text editor or with VS Code.
+Open it in any text editor or VS Code.
 
 ---
 
