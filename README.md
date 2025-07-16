@@ -14,22 +14,20 @@ When such actions are detected, it prints alerts to the console and saves them i
 
 Behavior-Based Insider Threat Detection System/
 │
-├── analyzer/
-│   └── behavior_analyzer.py         # Analyzes behavior and assigns threat levels
+├── main.py
+├── requirements.txt
 │
-├── logger/
-│   └── activity_logger.py           # Saves alerts to a JSON log file
+├── analyzer/
+│   └── behavior_analyzer.py
 │
 ├── monitor/
-│   └── file_watcher.py              # Monitors filesystem for suspicious changes
+│   └── file_watcher.py
 │
-├── sample_watch_dir/                # Folder to be monitored
-│   └── (add test files here)
+├── logger/
+│   └── activity_logger.py
 │
-├── activity_log.json                # Log of all suspicious activity
-├── requirements.txt                 # Python dependencies
-├── main.py                          # Entry point to run the system
-└── README.md                        # Project documentation
+└── sample_watch_dir/
+└── README.md
 
 ---
 
